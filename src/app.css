@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+nav {
+  padding: 10px;
+}
+
+.textarea-con,
+.preview-con {
+  color: black;
+  background-color: #e9d8e4;
+  border: 2px solid #121212;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.content {
+  background-color: #fff;
+  color: black;
+}
